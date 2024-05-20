@@ -1,4 +1,3 @@
-import {API_PATH} from "./config";
 import {HonoEnv} from "./types";
 
 export async function sanitizePathSearch(domain: string, str: string) {

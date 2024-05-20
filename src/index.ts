@@ -1,6 +1,5 @@
 import {Hono} from 'hono';
 import {serveRequest} from './utils';
-import {API_PATH} from "./config";
 import {HonoEnv} from "./types";
 
 const app = new Hono<HonoEnv>();
